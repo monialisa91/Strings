@@ -3,8 +3,8 @@ that first appeared during the late Maastrichtian stage of the late Cretaceous p
 
 var dinosaur = "triceratops";
 dinosaur = dinosaur.toUpperCase();
-text = text.replace( "Velociraptor", dinosaur );
-var newText = text.substr( 0, (text.length)/2 );
+text = text.replace("Velociraptor", dinosaur);
+var newText = text.substr(0, text.length / 2);
 
 console.log(newText);
 
